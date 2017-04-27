@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/rock_head"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pull_refresh_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrMode="both" >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <include layout="@layout/rock_adv_pager"></include>
+            <GridView
+                    android:verticalSpacing="1dp"
+                    android:horizontalSpacing="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:numColumns="2"
+                    android:id="@+id/barGridView"
+                    android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/explore_list_fresh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="200dp"/>
+        </LinearLayout>
+
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

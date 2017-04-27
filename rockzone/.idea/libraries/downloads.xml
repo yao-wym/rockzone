@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="downloads">
+    <CLASSES>
+      <root url="jar://D:/intellij_prj/Android-Universal-Image-Loader-master/downloads/universal-image-loader-1.9.3-sources.jar!/" />
+      <root url="jar://D:/intellij_prj/Android-Universal-Image-Loader-master/downloads/universal-image-loader-1.9.3-javadoc.jar!/" />
+      <root url="jar://D:/intellij_prj/Android-Universal-Image-Loader-master/downloads/universal-image-loader-1.9.3.jar!/" />
+      <root url="jar://D:/intellij_prj/Android-Universal-Image-Loader-master/downloads/universal-image-loader-1.9.3-with-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

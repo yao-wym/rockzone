@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <color name="uc_setting_text_color">#000000</color>
+    <color name="orange_btn_unpressed">#FF7043</color>
+    <color name="orange_btn_pressed">#FF5722</color>
+    <color name="dividing_line_color">#ffa3a3a3</color>
+    <color name="rock_default_text_color">#000000</color>
+    <color name="uc_edit_text_color">#000000</color>
+    <color name="bianmin_middle_item_text_color">#808080</color>
+    <color name="bianmin_bottom_item_text_color1">#808080</color>
+    <color name="bianmin_bottom_item_text_color2">#808080</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/rock_head"/>
+    <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <RelativeLayout
+                android:id="@+id/collect_article"
+                android:background="@drawable/rock_default_item_stl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            <TextView
+                    android:gravity="center"
+                    android:text="文章"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            <ImageView
+                    android:id="@+id/red_line_article"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/red"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"/>
+        </RelativeLayout>
+        <ImageView
+                android:background="@color/dividing_line_color"
+                android:layout_width="@dimen/dividing_line"
+                android:layout_height="match_parent"/>
+        <RelativeLayout
+                android:id="@+id/collect_goods"
+                android:background="@drawable/rock_default_item_stl"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            <TextView
+                    android:gravity="center"
+                    android:text="积分商品"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            <ImageView
+                    android:id="@+id/red_line_goods"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <ImageView
+            android:background="@color/dividing_line_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dividing_line"/>
+    <android.support.v4.view.ViewPager
+            android:background="@color/white"
+            android:id="@+id/collection_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

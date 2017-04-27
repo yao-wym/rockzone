@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/rock_head"/>
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:focusable="true"
+                      android:focusableInTouchMode="true"
+                      android:paddingLeft="20dp">
+            <RelativeLayout
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    >
+                <ImageView
+                       android:layout_centerInParent="true"
+                        android:src="@drawable/user_set_image"
+                        android:id="@+id/user_icon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+            </RelativeLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="昵称"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:text=""
+                          android:id="@+id/nickname"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="性别"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:id="@+id/sex"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:background="#00000000"/>
+
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="工作"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/job"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="星座"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/xingzuo"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="家乡"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/hometown"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="爱好"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/hobby"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="个人介绍"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/introduction"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/user_edit_item_height"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="情感状态"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/qinggan"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="60dp"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+                    >
+                <TextView android:layout_width="@dimen/user_edit_text_width"
+                          android:gravity="center"
+                          android:layout_height="match_parent"
+                          android:text="签名"/>
+                <EditText android:layout_width="@dimen/user_edit_edit_text_width"
+                          android:layout_marginLeft="@dimen/user_edit_item"
+                          android:layout_height="match_parent"
+                          android:textColor="@color/uc_edit_text_color"
+                          android:id="@+id/signature"
+                          android:background="#00000000"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/dividing_line_color"
+                    android:layout_width="@dimen/user_edit_dividing_line_width"
+                    android:layout_height="@dimen/dividing_line"/>
+        <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/userinfo_submit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/orange_btn_stl"
+                android:text="提交"
+                android:layout_width="80dp"
+                android:layout_height="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

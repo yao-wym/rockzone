@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/main_relativelayout_header"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:background="@drawable/shouye_daohang_background">
+
+    <ImageButton
+            android:id="@+id/head_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="#00000000"
+            android:layout_marginLeft="5.0dip"
+            android:src="@drawable/fanhui"/>
+
+
+    <ImageButton
+            android:id="@+id/message_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/sousuo"
+            android:focusableInTouchMode="false"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="我的小区"
+            android:id="@+id/community_name"
+            android:layout_centerHorizontal="true" android:textColor="#fff" android:shadowColor="#854033"
+            android:textSize="@dimen/space_28"/>
+    <ImageButton android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/head_community_list"
+                 android:layout_toRightOf="@+id/community_name"
+                 android:layout_centerVertical="true"
+                 android:layout_marginRight="5dp"
+                 android:background="@drawable/shouye_jiantou"/>
+
+</RelativeLayout>

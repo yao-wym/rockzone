@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#f6f6f6"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+    <include layout="@layout/rock_head"/>
+    <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/relativeLayout1" >
+            <EditText
+                    android:id="@+id/comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/zhuce_biankuang"
+                    android:ems="10"
+                    android:hint="  评论内容"
+                    android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/comment_submit"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:background="@drawable/zhuce_next_selector"
+                android:text="评 论" />
+    </LinearLayout>
+
+</LinearLayout>

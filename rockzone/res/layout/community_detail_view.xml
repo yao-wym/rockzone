@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/rock_head"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            </LinearLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        <ImageButton
+                android:id="@+id/community_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        <ImageButton
+                android:id="@+id/community_logo_background"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+    </RelativeLayout>
+        <LinearLayout
+                android:id="@+id/xiapqu_functions"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+            <RelativeLayout
+                    android:id="@+id/xiaoqu_publish"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:id="@+id/xiaoqu_qinzi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/xiaoqu_weixiu"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/xiaoqu_phoneNum"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+
+                </LinearLayout>
+</LinearLayout>

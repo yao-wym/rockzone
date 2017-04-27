@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/adv_page_list" >
+
+    <com.rock.view.MyViewPager
+            android:id="@+id/adv_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </com.rock.view.MyViewPager>
+    <LinearLayout
+            android:id="@+id/bottom_pointer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

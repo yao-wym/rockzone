@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@drawable/rock_default_item_stl"
+              android:layout_width="match_parent"
+              android:layout_height="80dp">
+     <ImageButton
+        android:background="#00000000"
+        android:id="@+id/community_logo"
+        android:layout_height="80dp"
+        android:layout_width="80dp">
+     </ImageButton>
+    <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/rock_default_text_color"
+                android:textSize="23sp"
+                android:ems="15"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/community_name"
+                />
+        <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/address"
+                android:gravity="center"
+                android:ems="15"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

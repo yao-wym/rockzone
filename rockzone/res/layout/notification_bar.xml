@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="@drawable/shouye_background_dark"
+        android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shouye_guangbo_background">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/shouye_laba">
+
+    </ImageView>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="小区公告，点击进入"
+            android:layout_gravity="center_vertical"
+            android:background="#00000000"
+            android:id="@+id/community_tips_btn"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    <ImageButton
+            android:background="#00000000"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/shouye_close">
+
+    </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shouye_tianqi"
+                    android:layout_gravity="center_vertical"
+                    />
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="7-15"
+                    android:id="@+id/weather_tips"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/shouye_touxiang"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="715"
+                android:id="@+id/menber_num" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

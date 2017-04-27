@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">生活系</string>
+    <string name="main_publish">小区公告</string>
+    <string name="main_forum">小区圈子</string>
+    <string name="main_phone">号码通</string>
+    <string name="main_shop">便利店</string>
+    <string name="main_wuye">找物业</string>
+    <string name="main_banshi">办事知道</string>
+    <string name="main_youhui">全城优惠</string>
+    <string name="main_city">城市论坛</string>
+    <string name="main_more">更多</string>
+    <string name="share_icon">http://www.umeng.com/images/pic/banner_module_social.png</string>
+    <string name="share_content">"生活系——属于新疆人自己的社区家园。copyright@石头科技"</string>
+    <string name="share_title">生活系——朋友圈</string>
+    <string name="share_url">http://www.shenghuoxi.com/</string>
+    <string name="qq_app_id">1101842068</string>
+    <string name="qq_app_key">bY2h2VaT9D4kwfnx</string>
+    <string name="weixin_app_id">wx8fc026750351abca</string>
+    <string name="weixin_app_key">8bf34b700f2f9304e7c2d12ad2ce006e</string>
+    <string name="weibo_app_id">http://www.shenghuoxi.com/</string>
+    <string name="weibo_app_key">http://www.shenghuoxi.com/</string>
+    <string name="share_service">com.umeng.share</string>
+    <string name="share_login">com.umeng.login</string>
+    <string name="wuye_phone_num">拨打%s次</string>
+</resources>

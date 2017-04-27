@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    <LinearLayout
+            android:background="@drawable/rock_default_item_stl"
+            android:gravity="center"
+            android:id="@+id/zhidao"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:layout_margin="10dp"
+                android:src="@drawable/shouye_zhidao"/>
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="办事知道"/>
+            <TextView
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="办事办证/规章流程"/>
+        </LinearLayout>
+        <!--<ImageView android:layout_width="@dimen/dividing_line"-->
+                   <!--android:layout_height="match_parent"-->
+
+                   <!--android:background="@color/dividing_line_color"/>-->
+    </LinearLayout>
+    <ImageView android:layout_height="match_parent" android:layout_width="@dimen/dividing_line" android:background="@color/dividing_line_color"/>
+    <LinearLayout
+            android:id="@+id/bianmin"
+            android:background="@drawable/rock_default_item_stl"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:layout_margin="10dp"
+                android:src="@drawable/shouye_bianmin"/>
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="便民服务"/>
+            <TextView
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="违章票务/信息查询"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="@dimen/dividing_line"
+               android:background="@color/dividing_line_color"/>
+    <LinearLayout
+            android:gravity="center"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+        <LinearLayout
+                android:id="@+id/city_forum"
+                android:background="@drawable/service_bar_stl"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00000000"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/shouye_city"/>
+            <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="城市论坛"/>
+                <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同城话题/兴趣交友"/>
+            </LinearLayout>
+            <!--<ImageView android:layout_width="@dimen/dividing_line"-->
+                       <!--android:layout_height="match_parent"-->
+                       <!--android:background="@color/dividing_line_color"/>-->
+        </LinearLayout>
+        <ImageView android:layout_height="match_parent" android:layout_width="1px" android:background="@color/dividing_line_color"/>
+         <LinearLayout
+                 android:id="@+id/sale_shop"
+                android:background="@drawable/rock_default_item_stl"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/shouye_youhui"/>
+             <LinearLayout
+                     android:gravity="center"
+                     android:orientation="vertical"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+                 <TextView
+                         android:textSize="20sp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="全城优惠"/>
+                 <TextView
+                         android:layout_marginTop="5dp"
+                         android:textSize="12sp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="优惠折扣/帮你省钱"/>
+             </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--<ImageView android:layout_width="match_parent" android:layout_height="1.3dp" android:background="@drawable/background_solid"/>-->
+
+</LinearLayout>

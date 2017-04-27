@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:id="@+id/active_btn"
+        android:clickable="true"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="6dp"
+            android:id="@+id/relativeLayout">
+        <ImageButton
+                android:layout_marginTop="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/active_commend_1"
+        android:id="@+id/commend_active_1"/>
+    </RelativeLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/relativeLayout"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        <ImageButton
+                android:layout_marginTop="1dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/active_commend_2"
+                android:id="@+id/commend_active_2"/>
+        <ImageButton
+                android:layout_below="@+id/commend_active_2"
+                android:background="@drawable/active_commend_3"
+                android:layout_marginTop="8dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/commend_active_3"/>
+    </LinearLayout>
+</LinearLayout>

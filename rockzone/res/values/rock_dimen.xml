@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shouye_service_margin_bottom">10dp</dimen>
+    <dimen name="shouye_service_margin_top">10dp</dimen>
+    <dimen name="forum_item_title_text_size">20sp</dimen>
+    <dimen name="forum_item_describe_text_size">15sp</dimen>
+    <dimen name="shouye_bar_image_height">70dp</dimen>
+    <dimen name="shouye_bar_image_width">70dp</dimen>
+    <dimen name="shouye_bar_layout_height">130dp</dimen>
+    <dimen name="uc_setting_item_height">50dp</dimen>
+    <dimen name="uc_setting_img_margin_right">30dp</dimen>
+    <dimen name="uc_setting_item_line">1px</dimen>
+    <dimen name="uc_setting_text_margin_left">10dp</dimen>
+    <dimen name="uc_setting_jiantou_height">10dp</dimen>
+    <dimen name="uc_setting_jiantou_width">10dp</dimen>
+    <dimen name="uc_item_margin_btn_left">10dp</dimen>
+    <dimen name="uc_item_margin_text_left">40dp</dimen>
+    <dimen name="uc_item_height">50dp</dimen>
+    <dimen name="uc_item_img_width">25dp</dimen>
+    <dimen name="uc_item_jiantou_height">15dp</dimen>
+    <dimen name="uc_item_jiantou_width">15dp</dimen>
+    <dimen name="uc_item_jiantou_margin_right">25dp</dimen>
+    <dimen name="text_left_padding">10dp</dimen>
+    <dimen name="dividing_line">1px</dimen>
+    <dimen name="xiaoqu_gonggao_item_margin_top">5dp</dimen>
+    <dimen name="goods_detai_jiantou_height">25dp</dimen>
+    <dimen name="goods_detai_jiantou_width">25dp</dimen>
+    <dimen name="goods_detai_list_img_width">40dp</dimen>
+    <dimen name="goods_detai_list_img_height">40dp</dimen>
+    <dimen name="goods_detai_list_height">55dp</dimen>
+    <dimen name="goods_detai_list_text_margin_left">75dp</dimen>
+    <dimen name="goods_detai_list_text_size">15sp</dimen>
+    <dimen name="goods_detai_list_jiantou_margin_right">10dp</dimen>
+    <dimen name="post_bottom_item_padding_left">15dp</dimen>
+    <dimen name="post_bottom_text_margin_left">8dp</dimen>
+    <dimen name="user_edit_text_width">80dp</dimen>
+    <dimen name="user_edit_edit_text_width">280dp</dimen>
+    <dimen name="user_edit_dividing_line_width">320dp</dimen>
+    <dimen name="user_edit_item_height">50dp</dimen>
+
+    <dimen name="bianmin_middle_item_height">80dp</dimen>
+    <dimen name="bianmin_middle_item_img_height">50dp</dimen>
+    <dimen name="bianmin_middle_item_img_width">50dp</dimen>
+    <dimen name="bianmin_middle_item_text_size">18sp</dimen>
+
+    <dimen name="bianmin_bottom_item_height">60dp</dimen>
+    <dimen name="bianmin_bottom_item_img_height">60dp</dimen>
+    <dimen name="bianmin_bottom_item_img_width">60dp</dimen>
+    <dimen name="bianmin_bottom_item_text_size1">18sp</dimen>
+    <dimen name="bianmin_bottom_item_text_size2">11sp</dimen>
+    <dimen name="bianmin_bottom_item_text_width">120dp</dimen>
+</resources>

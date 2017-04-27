@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                >
+    <RelativeLayout
+            android:id="@id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+     </RelativeLayout>
+    <LinearLayout
+
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:background="@color/dividing_line_color"
+          android:orientation="vertical">
+
+<LinearLayout
+        android:background="@color/white"
+        android:id="@+id/foot_container"
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:id="@+id/bottom_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+            <ImageView
+                    android:id="@+id/bottom_home_btn"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#00000000"
+                    android:src="@drawable/shouye_home_stl"
+                    />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="首页"
+                    android:layout_below="@id/bottom_home_btn"
+                    android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+    <RelativeLayout android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bottom_explore"
+                    android:layout_weight="1">
+        <ImageView
+                android:id="@+id/bottom_explore_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:src="@drawable/shouye_faxian_stl"
+                android:background="#00000000" />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="发现"
+                  android:layout_below="@id/bottom_explore_btn"
+                  android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/bottom_account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <ImageView
+                android:id="@+id/bottom_account_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shouye_shangcheng_stl"
+                android:background="#00000000"
+                android:button="@null" />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="积分商城"
+                  android:layout_below="@id/bottom_account_btn"
+                  android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:id="@+id/bottom_my"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+        <ImageView
+                android:id="@+id/bottom_my_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shouye_wode_stl"
+                android:background="#00000000"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="我的"
+                      android:layout_below="@id/bottom_my_btn"
+                      android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

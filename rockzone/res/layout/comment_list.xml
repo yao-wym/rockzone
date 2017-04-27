@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/rock_head"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/comment_list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000"
+            android:divider="#19000000"
+            android:fadingEdge="none"
+            android:dividerHeight="1dp"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true" />
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <ImageView
+                android:background="@color/dividing_line_color"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dividing_line"/>
+        <ImageView
+                android:src="@drawable/comment_icon"
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp"/>
+        <EditText
+                android:id="@+id/comment_edit"
+                android:background="@drawable/text_bg"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="80dp"
+                android:paddingLeft="@dimen/text_left_padding"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/text_size_18"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:hint="发表评论"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/comment_submit"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/orange_btn_stl"
+                android:textColor="@color/white"
+                android:text="发表"
+                android:layout_marginRight="10dp"
+                android:layout_width="40dp"
+                android:layout_height="28dp"/>
+    </RelativeLayout>
+</LinearLayout>

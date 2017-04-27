@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_marginTop="10dp"
+              android:layout_height="140dp">
+        <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/empty_photo"
+                android:id="@+id/image_view"
+                android:layout_width="fill_parent"
+                android:layout_height="140dp"/>
+
+                    <!--<LinearLayout-->
+                         <!--android:layout_alignParentBottom="true"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:layout_height="40dp">-->
+                        <!--<TextView-->
+                                <!--android:text=""-->
+                                <!--android:textColor="@color/white"-->
+                                <!--android:id="@+id/title"-->
+                                <!--android:textSize="@dimen/text_size_18"-->
+                                <!--android:singleLine="true"-->
+                                <!--android:ems="10"-->
+                                <!--android:layout_width="270dp"-->
+                                <!--android:layout_height="wrap_content"/>-->
+                            <!--<RelativeLayout-->
+                                    <!--android:background="@drawable/explore_list_view_bg"-->
+                                    <!--android:orientation="horizontal"-->
+                                    <!--android:gravity="right"-->
+                                    <!--android:paddingLeft="20dp"-->
+                                    <!--android:layout_width="wrap_content"-->
+                                    <!--android:layout_height="20dp">-->
+                                <!--<TextView-->
+                                        <!--android:gravity="center"-->
+                                        <!--android:text="0"-->
+                                        <!--android:id="@+id/view_num"-->
+                                        <!--android:layout_width="wrap_content"-->
+                                        <!--android:minWidth="50dp"-->
+                                        <!--android:layout_height="match_parent"/>-->
+                            <!--</RelativeLayout>-->
+                    <!--</LinearLayout>-->
+</RelativeLayout>

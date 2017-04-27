@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:layout_marginTop="6dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@drawable/xiaoqu_biankuang"/>
+    <LinearLayout android:layout_width="match_parent" 
+                  android:layout_height="80dp">
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/waimai_btn"
+                    android:src="@drawable/xiaoqu_waimai"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="外卖"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/waimai_btn"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="1dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/xiaoqu_biankuang"/>
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/bianli_btn"
+                    android:src="@drawable/xiaoqu_bianli"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="便利店"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/bianli_btn"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="1dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/xiaoqu_biankuang"/>
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/shuiguo_btn"
+                    android:src="@drawable/xiaoqu_guoshu"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="水果蔬菜"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/shuiguo_btn"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1dp"
+                android:background="@drawable/xiaoqu_biankuang"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="80dp">
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/house_btn"
+                    android:src="@drawable/xiaoqu_waimai"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="房屋租赁"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/house_btn"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="1dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/xiaoqu_biankuang"/>
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/bianli_btn"
+                    android:src="@drawable/xiaoqu_haomatong"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="号码通"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/bianli_btn"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="1dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/xiaoqu_biankuang"/>
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/shuiguo_btn"
+                    android:src="@drawable/xiaoqu_xiaodian"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="自营小店"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/shuiguo_btn"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@drawable/xiaoqu_biankuang"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="80dp">
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/visitor_btn"
+                    android:src="@drawable/xiaoqu_fangke"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="访客通行"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/visitor_btn"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="1dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/xiaoqu_biankuang"/>
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/qinzi_btn"
+                    android:src="@drawable/xiaoqu_qinzi"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="亲子"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/qinzi_btn"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="1dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/xiaoqu_biankuang"/>
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+            <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/more_btn"
+                    android:src="@drawable/xiaoqu_gengduo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="更多"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/more_btn"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@drawable/xiaoqu_biankuang"/>
+</LinearLayout>

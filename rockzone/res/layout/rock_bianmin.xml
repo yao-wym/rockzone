@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/rock_head"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="130dp">
+                <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bianmin_head"
+                        android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <RelativeLayout android:background="@color/white" android:layout_width="match_parent"
+                            android:layout_height="260dp">
+
+                <ImageView
+                        android:layout_marginTop="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/rock_dividing_bolang_line"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout
+                        android:id="@+id/bianmin_divide"
+                        android:background="@color/graywhite"
+                        android:layout_width="match_parent" android:layout_height="20dp">
+                    <ImageView
+                            android:padding="3dp"
+                            android:src="@drawable/bianmin_middle"
+                            android:background="@drawable/bianmin_dividing_bg"
+                            android:layout_width="wrap_content" android:layout_height="20dp"/>
+                    <TextView
+                            android:text="居家服务"
+                            android:layout_width="wrap_content" android:layout_height="20dp"/>
+                </LinearLayout>
+                <TableLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/bianmin_divide"
+                        android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <LinearLayout
+                                android:id="@+id/bianmin_weixiu"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_01"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="维修服务"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:id="@+id/bianmin_kaisuo"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_02"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="开锁换锁"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:id="@+id/bianmin_jiazheng"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_03"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="家政家教"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <LinearLayout
+                                android:id="@+id/bianmin_shutong"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_04"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="疏通"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:id="@+id/bianmin_banjia"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_05"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="搬家"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:id="@+id/bianmin_caipiao"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_06"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="彩票"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <LinearLayout
+                                android:id="@+id/bianmin_kuaidi"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_07"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="物流快递"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:id="@+id/bianmin_yiliao"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_08"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="医疗卫生"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                                android:id="@+id/bianmin_gengduo"
+                                android:background="@drawable/bianmin_default_item_stl"
+                                android:layout_height="@dimen/bianmin_middle_item_height"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                            <ImageView
+                                    android:src="@drawable/bianmin_09"
+                                    android:layout_width="@dimen/bianmin_middle_item_img_height"
+                                    android:layout_height="@dimen/bianmin_middle_item_img_width"/>
+                            <TextView
+                                    android:textSize="@dimen/bianmin_middle_item_text_size"
+                                    android:textColor="@color/bianmin_middle_item_text_color"
+                                    android:text="更多"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+            <RelativeLayout android:background="@color/white"
+                            android:layout_width="match_parent" android:layout_height="240dp">
+
+                <ImageView
+                        android:layout_marginTop="18dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/rock_dividing_bolang_line"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout
+                        android:id="@+id/bianmin_divide"
+                        android:background="@color/graywhite"
+                        android:layout_width="match_parent" android:layout_height="20dp">
+                    <ImageView
+                            android:padding="3dp"
+                            android:src="@drawable/bianmin_middle"
+                            android:background="@drawable/bianmin_dividing_bg"
+                            android:layout_width="wrap_content" android:layout_height="20dp"/>
+                    <TextView
+                            android:text="信息服务"
+                            android:layout_width="wrap_content" android:layout_height="20dp"/>
+                </LinearLayout>
+                <TableLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/bianmin_divide"
+                        android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <LinearLayout
+                                android:id="@+id/bianmin_weizhang"
+                                android:background="@drawable/bianmin_bottom_item_stl"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/bianmin_bottom_item_height"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                >
+                            <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_width="@dimen/bianmin_bottom_item_text_width"
+                                    android:orientation="vertical"
+                                    android:layout_height="match_parent">
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size1"
+                                        android:textColor="@color/bianmin_bottom_item_text_color1"
+                                        android:text="违章查询"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size2"
+                                        android:textColor="@color/bianmin_bottom_item_text_color2"
+                                        android:text="精准信息权威发布"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                    android:src="@drawable/bianmin_c"
+                                    android:layout_width="@dimen/bianmin_bottom_item_img_height"
+                                    android:layout_height="@dimen/bianmin_bottom_item_text_width"/>
+                        </LinearLayout>
+                        <ImageView
+                                android:layout_width="@dimen/dividing_line"
+                                android:layout_height="match_parent"
+                                android:background="@color/dividing_line_color" />
+                        <LinearLayout
+                                android:id="@+id/bianmin_jiage"
+                                android:background="@drawable/bianmin_bottom_item_stl"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/bianmin_bottom_item_height"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                >
+                            <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_width="@dimen/bianmin_bottom_item_text_width"
+                                    android:orientation="vertical"
+                                    android:layout_height="match_parent">
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size1"
+                                        android:textColor="@color/bianmin_bottom_item_text_color1"
+                                        android:text="蔬菜价格"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size2"
+                                        android:textColor="@color/bianmin_bottom_item_text_color2"
+                                        android:text="价格信息实时掌握"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                    android:src="@drawable/bianmin_a"
+                                    android:layout_width="@dimen/bianmin_bottom_item_img_height"
+                                    android:layout_height="@dimen/bianmin_bottom_item_text_width"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dividing_line"
+                            android:background="@color/dividing_line_color" />
+                    <TableRow>
+                        <LinearLayout
+                                android:id="@+id/bianmin_banzheng"
+                                android:background="@drawable/bianmin_bottom_item_stl"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/bianmin_bottom_item_height"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                >
+                            <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_width="@dimen/bianmin_bottom_item_text_width"
+                                    android:orientation="vertical"
+                                    android:layout_height="match_parent">
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size1"
+                                        android:textColor="@color/bianmin_bottom_item_text_color1"
+                                        android:text="办事办证"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size2"
+                                        android:textColor="@color/bianmin_bottom_item_text_color2"
+                                        android:text="办事办证有我不愁"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                    android:src="@drawable/bianmin_b"
+                                    android:layout_width="@dimen/bianmin_bottom_item_img_height"
+                                    android:layout_height="@dimen/bianmin_bottom_item_text_width"/>
+
+                        </LinearLayout>
+                        <ImageView
+                                android:layout_width="@dimen/dividing_line"
+                                android:layout_height="match_parent"
+                                android:background="@color/dividing_line_color" />
+                        <LinearLayout
+                                android:id="@+id/bianmin_dianying"
+                                android:background="@drawable/bianmin_bottom_item_stl"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/bianmin_bottom_item_height"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                >
+                            <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_width="@dimen/bianmin_bottom_item_text_width"
+                                    android:orientation="vertical"
+                                    android:layout_height="match_parent">
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size1"
+                                        android:textColor="@color/bianmin_bottom_item_text_color1"
+                                        android:text="电影资讯"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size2"
+                                        android:textColor="@color/bianmin_bottom_item_text_color2"
+                                        android:text="最新上映最热影片"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                    android:src="@drawable/bianmin_d"
+                                    android:layout_width="@dimen/bianmin_bottom_item_img_height"
+                                    android:layout_height="@dimen/bianmin_bottom_item_text_width"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dividing_line"
+                            android:background="@color/dividing_line_color" />
+                    <TableRow>
+                        <LinearLayout
+                                android:id="@+id/bianmin_jipiao"
+                                android:background="@drawable/bianmin_bottom_item_stl"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/bianmin_bottom_item_height"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                >
+                            <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_width="@dimen/bianmin_bottom_item_text_width"
+                                    android:orientation="vertical"
+                                    android:layout_height="match_parent">
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size1"
+                                        android:textColor="@color/bianmin_bottom_item_text_color1"
+                                        android:text="机票车票"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size2"
+                                        android:textColor="@color/bianmin_bottom_item_text_color2"
+                                        android:text="出行指南票务查询"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                    android:src="@drawable/bianmin_e"
+                                    android:layout_width="@dimen/bianmin_bottom_item_img_height"
+                                    android:layout_height="@dimen/bianmin_bottom_item_text_width"/>
+                        </LinearLayout>
+                        <ImageView
+                                android:layout_width="@dimen/dividing_line"
+                                android:layout_height="match_parent"
+                                android:background="@color/dividing_line_color" />
+                        <LinearLayout
+                                android:id="@+id/bianmin_shiti"
+                                android:background="@drawable/bianmin_bottom_item_stl"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/bianmin_bottom_item_height"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                >
+                            <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_width="@dimen/bianmin_bottom_item_text_width"
+                                    android:orientation="vertical"
+                                    android:layout_height="match_parent">
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size1"
+                                        android:textColor="@color/bianmin_bottom_item_text_color1"
+                                        android:text="试题查询"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                                <TextView
+                                        android:textSize="@dimen/bianmin_bottom_item_text_size2"
+                                        android:textColor="@color/bianmin_bottom_item_text_color2"
+                                        android:text="热门考点名师点评"
+                                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                    android:src="@drawable/bianmin_f"
+                                    android:layout_width="@dimen/bianmin_bottom_item_img_height"
+                                    android:layout_height="@dimen/bianmin_bottom_item_text_width"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dividing_line"
+                            android:background="@color/dividing_line_color" />
+                </TableLayout>
+            </RelativeLayout>
+        </LinearLayout>
+     </ScrollView>
+</LinearLayout>

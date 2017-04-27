@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#f6f6f6"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+    <include layout="@layout/rock_head"/>
+    <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+        <EditText
+                android:id="@+id/title"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/zhuce_biankuang"
+                android:ems="15"
+                android:hint="标题(15字以内)"
+                android:textSize="15dp" />
+        <EditText
+                android:id="@+id/description"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="11dp"
+                android:singleLine="true"
+                android:background="@drawable/zhuce_biankuang"
+                android:ems="20"
+                android:hint="描述(20字以内)"
+                android:textSize="15dp" />
+        <!--<Spinner-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/spinner"/>-->
+        <RelativeLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/relativeLayout1" >
+            <EditText
+                    android:gravity="top"
+                    android:id="@+id/content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="11dp"
+                    android:ems="10"
+                    android:hint="主题内容"
+                    android:textSize="15dp" />
+        </RelativeLayout>
+
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/post_submit"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:background="@drawable/zhuce_next_selector"
+                android:text="发 布" />
+    </LinearLayout>
+
+</LinearLayout>

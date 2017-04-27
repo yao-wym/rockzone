@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/shouye_background"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+    <include layout="@layout/rock_head"/>
+
+    <ImageView
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/erweima"
+            android:layout_width="260dp"
+            android:layout_height="260dp"/>
+</RelativeLayout>

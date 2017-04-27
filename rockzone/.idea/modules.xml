@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/intellij_prj/Android-PullToRefresh-master/pullToRefresh/pullltorefresh-lib.iml" filepath="D:/intellij_prj/Android-PullToRefresh-master/pullToRefresh/pullltorefresh-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rockzone.iml" filepath="$PROJECT_DIR$/rockzone.iml" />
+      <module fileurl="file://D:/intellij_prj/social_sdk_library_project/social_sdk_library_project.iml" filepath="D:/intellij_prj/social_sdk_library_project/social_sdk_library_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Android-Universal-Image-Loader-master/universal/universal-lib.iml" filepath="$PROJECT_DIR$/../Android-Universal-Image-Loader-master/universal/universal-lib.iml" />
+    </modules>
+  </component>
+</project>
+

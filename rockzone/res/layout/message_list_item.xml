@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="60dp">
+    <RelativeLayout
+            android:id="@+id/headRL"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+        <ImageButton
+                android:id="@+id/user_head"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        <ImageView
+                android:layout_alignParentRight="true"
+                android:background="@color/dividing_line_color"
+                android:layout_width="@dimen/dividing_line"
+                android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:background="@drawable/uc_item_stl"
+            android:gravity="left"
+            android:layout_toRightOf="@+id/headRL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:text=""
+                android:id="@+id/title"
+                />
+        <TextView
+                android:layout_alignParentRight="true"
+                android:id="@+id/time"
+                android:gravity="center"
+                android:textColor="@color/red"
+                android:text=""
+                android:layout_width="160dp"
+                android:layout_height="30dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="消1ff11111111111ff1111111ff1111111ff1111111ff1111ff1111111"
+                android:id="@+id/message"
+                />
+
+    </RelativeLayout>
+    <ImageView
+            android:background="@color/dividing_line_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dividing_line"/>
+</RelativeLayout>

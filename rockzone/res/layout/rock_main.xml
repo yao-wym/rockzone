@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/shouye_background"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+    <include layout="@layout/rock_head" />
+        <com.rock.view.ScrollViewExtends
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pull_refresh_scrollview"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                ptr:ptrMode="both" >
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                       android:orientation="vertical">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include
+                        android:id="@+id/adv_page"
+                        android:layout_height="150dp"
+                        android:layout_width="match_parent"
+                        layout="@layout/rock_adv_pager" />
+                <!--<include layout="@layout/notification_bar"-->
+                         <!--android:layout_height="30dp"-->
+                         <!--android:layout_width="match_parent"-->
+                         <!--android:layout_alignParentBottom="true"-->
+                        <!--/>-->
+            </RelativeLayout>
+
+    <include layout="@layout/service_bar"
+             android:layout_height="wrap_content"
+                 android:layout_width="match_parent"/>
+        <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="便捷服务"
+                android:textColor="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        <include layout="@layout/service_2_bar"
+                 android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+            />
+            <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:text="生活精选"
+                    android:textColor="@color/gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/main_adv_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="200dp"/>
+        </LinearLayout>
+
+    </com.rock.view.ScrollViewExtends>
+
+
+</LinearLayout>
+    <!--<RelativeLayout android:layout_width="wrap_content"-->
+                    <!--android:layout_marginTop="37dip"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_height="wrap_content">-->
+        <!--<ImageButton android:layout_width="wrap_content"-->
+                     <!--android:layout_height="wrap_content"-->
+                     <!--android:background="@drawable/shouye_dengji"/>-->
+        <!--<TextView android:layout_width="wrap_content"-->
+                  <!--android:layout_centerInParent="true"-->
+                  <!--android:layout_height="wrap_content"-->
+                  <!--android:text="lv1" android:textSize="@dimen/space_10" android:textColor="#c6c0b4"/>-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

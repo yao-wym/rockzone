@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:gravity="center_horizontal"
+            android:background="@drawable/shouye_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0dp"
+                      android:id="@+id/linearLayout1"
+                      android:padding="0.5dp"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="10dp"
+                      android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="@color/gray">
+            <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:background="@drawable/rock_white_item_stl" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent"
+                         android:layout_height="150dp"
+                         android:background="#00000000"
+                         android:id="@+id/goods_image"/>
+
+
+            <TextView
+                    android:id="@+id/goods_name"
+                    android:layout_marginLeft="10dp"
+                    android:text="商品名"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="30dp">
+                <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/red"
+                          android:text="0"
+                        android:id="@+id/score_fee"/>
+                <TextView android:layout_width="wrap_content"
+                          android:textColor="@color/red"
+                          android:layout_height="wrap_content"
+                          android:text=" 积分"/>
+                <TextView
+                          android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/black"
+                          android:text="剩余："/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/black"
+                          android:text="0"
+                          android:id="@+id/remain"/>
+            </LinearLayout>
+                </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:padding="0.5dp"
+                  android:layout_marginRight="10dp"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:id="@+id/linearLayout2"
+                  android:layout_marginLeft="15dp"
+                  android:background="@color/gray">
+            <LinearLayout android:layout_width="match_parent" android:background="@drawable/rock_white_item_stl" android:orientation="vertical" android:layout_height="match_parent">
+                <ImageView android:layout_width="match_parent"
+                           android:layout_height="150dp"
+                           android:background="#00000000"
+                           android:id="@+id/goods_image"/>
+                <TextView
+                        android:id="@+id/goods_name"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="10dp"
+                        android:text="商品名"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="30dp">
+                    <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            android:text="0"
+                            android:id="@+id/score_fee"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:textColor="@color/red"
+                              android:layout_height="wrap_content"
+                              android:text=" 积分"/>
+                    <TextView
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="剩余："/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:text="0"
+                              android:id="@+id/remain"/>
+                </LinearLayout>
+            </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>

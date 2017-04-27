@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:background="@drawable/service_bar_stl"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:src="@drawable/shouye_zhoubian"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小区周边"/>
+
+        </LinearLayout>
+        <ImageView android:layout_width="1.3dp" android:layout_height="match_parent" android:background="@drawable/background_solid"/>
+
+        <LinearLayout
+                android:background="@drawable/service_bar_stl"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:src="@drawable/shouye_bianming"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="便民服务"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="1.3dp" android:background="@drawable/background_solid"/>
+    <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:background="@drawable/service_bar_stl"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:src="@drawable/shouye_chengshi"/>
+            <TextView
+                    android:layout_below="@+id/commend_active_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="城市论坛"/>
+        </LinearLayout>
+        <ImageView android:layout_width="1.3dp" android:layout_height="match_parent" android:background="@drawable/background_solid"/>
+        <LinearLayout
+                android:background="@drawable/service_bar_stl"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_marginTop="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:src="@drawable/shouye_youhui"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全城优惠"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<ImageView android:layout_width="match_parent" android:layout_height="1.3dp" android:background="@drawable/background_solid"/>-->
+
+</LinearLayout>

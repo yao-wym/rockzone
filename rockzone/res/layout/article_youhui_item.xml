@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@drawable/rock_white_item_stl"
+              android:layout_width="match_parent"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content">
+    <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="110dp"
+            android:layout_height="110dp">
+        <ImageView
+                android:id="@+id/post_image"
+                android:src="@drawable/rock_zone_default_icon"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+        </ImageView>
+    </LinearLayout>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+                android:textSize="@dimen/forum_item_title_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:maxHeight="25dp"
+                android:textColor="@color/rock_default_text_color"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/title"
+                />
+        <TextView
+                android:textSize="@dimen/forum_item_describe_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="220dp"
+                android:maxHeight="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:id="@+id/describe"
+                />
+        <TextView
+                android:id="@+id/create_time"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

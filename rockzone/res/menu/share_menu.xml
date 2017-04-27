@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add"
+          android:title="Add"
+          android:icon="@android:drawable/ic_menu_add"
+            />
+    <item android:id="@+id/menu_wallaper"
+          android:title="Wallpaper"
+          android:icon="@android:drawable/ic_menu_gallery"
+            />
+    <item android:id="@+id/menu_search"
+          android:title="Search"
+          android:icon="@android:drawable/ic_search_category_default"
+            />
+    <item android:id="@+id/menu_setting"
+          android:title="Settings"
+          android:icon="@android:drawable/ic_menu_preferences"
+            />
+</menu>
